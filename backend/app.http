@@ -1,0 +1,45 @@
+###
+
+POST http://localhost:4001/register/
+Content-Type: application/json
+
+{   
+    "name":"kaira",
+    "phone":"8688360639",
+    "email": "kaira@gmail.com",
+    "password": "kaira"
+    
+}
+
+
+###
+
+POST http://localhost:4001/login/
+Content-Type: application/json
+
+{
+    "username":"kaira",
+    "password": "kaira"
+}
+
+
+
+###
+
+GET http://localhost:4001/user/
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoia2FpcmEiLCJpYXQiOjE3MTcxMzIyMzZ9.S0x2EsHZKwr-u7OHcDxhYmsc0ZEPFfp55x6KNStwblo
+
+
+
+
+
+
+###
+DELETE http://localhost:4001/user/1/
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoia2FpcmEiLCJpYXQiOjE3MTcxMzIyMzZ9.S0x2EsHZKwr-u7OHcDxhYmsc0ZEPFfp55x6KNStwblo
+
+
+
+
+
+
