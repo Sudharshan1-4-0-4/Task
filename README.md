@@ -23,6 +23,7 @@ Navigate to the project directory:
 bash
 Copy code ->
 cd frontend
+
 Install project dependencies using npm:
 
 bash
@@ -36,6 +37,7 @@ To start the development server and run the application locally, use the followi
 bash
 Copy code ->
 npm run dev
+
 This will start the development server and open the application in your default web browser.
 
 Production Build
@@ -44,6 +46,7 @@ To build the application for production deployment, use the following command:
 bash
 Copy code ->
 npm run build
+
 This will generate a production-ready build of the application in the dist directory.
 
 
@@ -52,13 +55,16 @@ For Backend:
   open Backend Folder with this command:
   bash
     open new terminal and enter -> cd Backend
-    then -> node index.js
+    
+   then -> node index.js
+    
     
 Functionality
 Features
-Feature 1: Description of feature 1.
-Feature 2: Description of feature 2.
+Feature 1: Add the items into a list..
+Feature 2: Edit the items by clicking edit button.
 ...
+
 User Authentication
 The application includes a user authentication system allowing users to sign up, log in, and manage their accounts.
 
