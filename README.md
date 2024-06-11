@@ -15,24 +15,26 @@ Follow these steps to set up the project on your local machine:
 Clone the repository to your local machine:
 
 bash
-Copy code
+Copy code ->
 git clone https://github.com/Sudharshan1-4-0-4/Task
+
 Navigate to the project directory:
 
 bash
-Copy code
+Copy code ->
 cd frontend
 Install project dependencies using npm:
 
 bash
-Copy code
+Copy code ->
 npm install
+
 Usage
 Development Server
 To start the development server and run the application locally, use the following command:
 
 bash
-Copy code
+Copy code ->
 npm run dev
 This will start the development server and open the application in your default web browser.
 
@@ -40,7 +42,7 @@ Production Build
 To build the application for production deployment, use the following command:
 
 bash
-Copy code
+Copy code ->
 npm run build
 This will generate a production-ready build of the application in the dist directory.
 
